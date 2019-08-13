@@ -9,13 +9,8 @@
 </head>
 
 <body>
-
-
   <main>
-
-
-
-    <section class="home mainSection">
+    <section class="home mainSection" id='home'>
       <header>
         <section>
           <span class="nameAndTitle">
@@ -26,10 +21,10 @@
             </div>
           </span>
           <span class="headerButtons">
-            <button class="headerButton" type="button" name="button-Home">HOME</button>
-            <button class="headerButton" type="button" name="button-Projects">PROJECTS</button>
-            <button class="headerButton" type="button" name="button-Contact">CONTACT</button>
-            <button class="headerButton" type="button" name="button-GitHub">GITHUB</button>
+            <a href='#home'><button class="headerButton" type="button" name="button-Home">HOME</button></a>
+            <a href='#project'><button class="headerButton" type="button" name="button-Projects">PROJECTS</button></a>
+            <a href='#contact'><button class="headerButton" type="button" name="button-Contact">CONTACT</button></a>
+            <a href='https://github.com/Mezran'><button class="headerButton" type="button" name="button-GitHub">GITHUB</button></a>
           </span>
 
         </section>
@@ -47,14 +42,41 @@
         qui officia deserunt mollit anim id est laborum.
       </div>
       <div class="buttons">
-        <button class="bodyButton" id="button-red" type="button" name="button">RESUME &#10095; </button>
-        <button class="bodyButton" id="button-grey" type="button" name="button">CONTACT &#10095; </button>
+        <a href='assets/StephenAllenResume.pdf' download><button class="bodyButton" id="button-red" type="button" name="button">RESUME &#10095; </button></a>
+        <a href='#contact'><button class="bodyButton" id="button-grey" type="button" name="button">CONTACT &#10095; </button></a>
 
       </div>
     </section>
-    <section class='projects'>
+    <section class='projects mainSection' id='project'>
+      <div class="projectBox">
+        <div class="projectBanner">
+          HearthstoneHelper
+          <a href="https://github.com/Mezran/GT-Project01-teamPink"><button id='gitHubButton' type="button" name="button">Visit on Github Pages &#10095;</button></a>
+        </div>
+      </div>
     </section>
-    <section class='contact'>
+
+
+
+    <section class='contact mainSection' id="contact">
+      <section class="bottomButtons">
+        <a href='#home'><button class='bodyButton button-red' type="button" name="button">Home</button></a>
+        <a href='#project'><button class='bodyButton button-red' type="button" name="button">Projects</button></a>
+        <a href='https://github.com/Mezran'><button class='bodyButton button-red' type="button" name="button">GitHub</button></a>
+        <a href='assets/StephenAllenResume.pdf' download><button class='bodyButton button-red' type="button" name="button">Resume</button></a>
+      </section>
+      <section class='contactForm'>
+        <form class="" action="index.html" method="post">
+          <h3>Name</h3>
+          <input type="text" name="inputName" value="" placeholder="Mr. Smith">
+          <h3>Email</h3>
+          <input type="text" name="inputEmail" value="" placeholder="example@domain.com">
+          <h3>Message</h3>
+          <textarea name="inputMessage" rows="8" cols="80" placeholder="Message here"></textarea>
+          <button class='bodyButton buttonRed'id='redButtonBottom' type="button" name="button">Submit</button>
+        </form>
+      </section>
+
     </section>
   </main>
 </body>
