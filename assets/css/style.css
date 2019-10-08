@@ -91,7 +91,8 @@ html {
 .buttons {}
 
 .bodyButton {
-  margin-left: 5px;
+  text-align: center;
+  margin-left: 2px;
   height: 40px;
   width: 140px;
   padding: 10px;
