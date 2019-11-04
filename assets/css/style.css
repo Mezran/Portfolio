@@ -146,8 +146,8 @@ button:focus {
   background-image: url('../images/HearthstoneHelper.png');
 }
 
-.bg-FoodFinder3000{
-  background-image: url('../images/FoodFinder3000.png');
+.bg-LITIBot{
+  background-image: url('../images/LIRIBot.jpg');
 }
 
 .bg-PetLife{
@@ -169,7 +169,7 @@ button:focus {
 
 #gitHubButton {
   margin-left: 5px;
-  margin-right: 50px;
+  margin-right: 5px;
   height: 40px;
   width: 200px;
   padding: 10px;
@@ -178,7 +178,7 @@ button:focus {
   background-color: rgb(61, 61, 61);
   cursor: pointer;
   position: relative;
-  left: 250px;
+  left: 125px;
 }
 
 .contact {
